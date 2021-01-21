@@ -1,0 +1,37 @@
+
+/* DAKRSKY_BACKGROUND_COLOR = #1b1c20 */
+/* DARKSKY_ICON_COLOR = #31AFD8 */
+
+body {
+  background: #1b1c20;
+}
+
+html, body {
+    font-family: Lato;
+    color: whitesmoke;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    align-items: center;
+  }
+  
+.main {
+  align-content: center;
+}
+
+  .hist,
+  .line,
+  .scatter {
+    width: 850px;
+    height: 450px;
+    box-sizing: border-box;
+    padding: 25px;
+    margin: 30px auto;
+    height: auto;
+    border-radius: 10px;
+    background-color: #23252b;
+    box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.5);
+}
+
